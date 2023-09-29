@@ -1067,3 +1067,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* migo button */
+.button.button-migo {
+  color: #000000;
+  background-image: linear-gradient(-135deg, #ffa107, #07ffdd, #00a700);
+  transition: background-image 2s ;
+  border: 1px solid #ffffff;
+}
+.button.button-migo:hover,
+.button.button-migo:focus { 
+  border: 1px solid #000000;
+  filter: brightness(80%);
+  background-image: linear-gradient(135deg, #ffa107, #07ffdd, #00a700);
+}
